@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.span {
+  color: #957ed1;
+}
+ul {
+  display: flex;
+  gap: 20px;
+}
+li {
+  font-size: 18px;
+  color: #e7e7e7;
+  list-style: none;
+  cursor: pointer;
+}
+/* header styles starts */
+.header {
+  padding: 10px 0;
+  background-color: #171221;
+}
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header__title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+/* header styles ends */
+/* home styles starts */
+.home {
+  padding: 40px 0;
+  background-color: #171221;
+  background-image: url(../images/home-bg.svg);
+  background-repeat: no-repeat;
+}
+.home__top {
+  text-align: center;
+  width: 612px;
+  margin: 0 auto;
+  display: block;
+}
+.home__title {
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 72px;
+}
+.home__description {
+  font-size: 18px;
+  color: #cacaca;
+  margin: 30px 0;
+  line-height: 28px;
+}
+.home__btn {
+  padding: 16px 24px;
+  background-color: #6750a4;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 18px;
+}
+.home__bottom {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  padding: 20px 0;
+  background: #171221;
+}
+.home__cards {
+  display: inline-block;
+  animation: scrollLeft 20s linear infinite;
+}
+.home__card {
+  display: inline-block;
+  padding: 32px;
+  margin: 0 10px;
+  background: #252525db;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.home__card--title {
+  color: #fff;
+}
+.home__card--p {
+  color: #cacaca;
+}
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+/* home styles ends */
+/* about styles starts */
+.about {
+  padding: 40px 0;
+}
+.about__top {
+  text-align: center;
+}
+.about__title {
+  font-size: 48px;
+  width: 565px;
+  margin: 25px 0;
+  font-weight: 700;
+  line-height: 64px;
+}
+.about__description {
+  font-size: 22px;
+  color: #a7a7a7;
+  line-height: 36px;
+  width: 37 0px;
+}
+/* about styles ends */
