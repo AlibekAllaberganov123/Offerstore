@@ -164,7 +164,7 @@ li {
 /* service styles ends */
 /* team  styles starts */
 .team {
-  padding: 70px 0;
+  padding: 40px 0;
   background-color: #1c1b1b;
 }
 
@@ -180,6 +180,9 @@ li {
   flex-wrap: wrap;
   gap: 28px;
 }
+.team__card {
+  margin-bottom: 70px;
+}
 .team__box1 {
   background-color: #ffffff;
   padding: 25px 15px;
@@ -188,7 +191,7 @@ li {
   line-height: 30px;
   position: absolute;
   left: 230px;
-  top: 3380px;
+  top: 3350px;
 }
 .team__box2 {
   background-color: #ffffff;
@@ -198,7 +201,7 @@ li {
   line-height: 30px;
   position: absolute;
   left: 625px;
-  top: 3380px;
+  top: 3350px;
 }
 .team__box3 {
   background-color: #ffffff;
@@ -208,7 +211,7 @@ li {
   line-height: 30px;
   position: absolute;
   left: 1010px;
-  top: 3380px;
+  top: 3350px;
 }
 .team__box4 {
   background-color: #ffffff;
@@ -218,7 +221,7 @@ li {
   line-height: 30px;
   position: absolute;
   left: 230px;
-  top: 3800px;
+  top: 3830px;
 }
 .team__box5 {
   background-color: #ffffff;
@@ -228,7 +231,7 @@ li {
   line-height: 30px;
   position: absolute;
   left: 625px;
-  top: 3800px;
+  top: 3830px;
 }
 .team__box6 {
   background-color: #ffffff;
@@ -238,7 +241,7 @@ li {
   line-height: 30px;
   position: absolute;
   left: 1010px;
-  top: 3800px;
+  top: 3830px;
 }
 .team__box--title {
   font-size: 24px;
